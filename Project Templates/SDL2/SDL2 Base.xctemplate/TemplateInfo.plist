@@ -54,7 +54,7 @@
 			<dict>
 				<key>OTHER_LDFLAGS</key>
 				<array>
-					<string>-framework cocoa -framework SDL2</string>
+					<string>-framework cocoa </string>
 				</array>
 				<key>USER_HEADER_SEARCH_PATHS</key>
 				<string></string>
@@ -64,12 +64,13 @@
 				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>/opt/local/lib</string>
+					<string>/usr/local/Cellar/sdl/HEAD/lib</string>
+					<string>/usrlocal/lib</string>
 					<string>/usr/lib</string>
 				</array>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>/opt/local/include</string>
+					<string>/usr/local/Cellar/sdl/HEAD/include/</string>
 					<string>/usr/include</string>
 					<string>/usr/local/include</string>
 				</array>
