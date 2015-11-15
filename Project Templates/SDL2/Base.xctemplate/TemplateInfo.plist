@@ -70,9 +70,9 @@
 		<key>SharedSettings</key>
 		<dict>
 			<key>GCC_C_LANGUAGE_STANDARD</key>
-			<string>gnu99</string>
+			<string>c99</string>
 			<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-			<string>gnu++0x</string>
+			<string>c++0x</string>
 			<key>CLANG_CXX_LIBRARY</key>
 			<string>libc++</string>
 			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>

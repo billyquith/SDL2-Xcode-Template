@@ -57,19 +57,18 @@
 				</array>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>/usr/local/Cellar/sdl/HEAD/include/</string>
-					<string>/usr/include</string>
 					<string>/usr/local/include</string>
+					<string>/usr/include</string>
 				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>/usr/local/Cellar/sdl/HEAD/lib</string>
 					<string>/usr/local/lib</string>
 					<string>/usr/lib</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<array>
 					<string>-framework cocoa</string>
+					<string>-lSDL2</string>
 				</array>
 				<key>USER_HEADER_SEARCH_PATHS</key>
 				<string></string>
