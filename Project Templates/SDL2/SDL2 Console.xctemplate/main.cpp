@@ -1,12 +1,11 @@
-// ============================================================================
-// [Include Section]
-// ============================================================================
+
 #include <SDL2/SDL.h>
 
-// ============================================================================
-// [SdlApplication]
-// ============================================================================
 #define APPTITLE "SDL Template Program"
+
+//-----------------------------------------------------------------------------
+// SdlApplication
+
 // SdlApplication is nothing more than thin wrapper to SDL library. You need
 // just to instantiate it and call run() to enter the SDL event loop.
 struct SdlApplication
@@ -42,8 +41,8 @@ struct SdlApplication
 	SDL_Renderer *renderer;
 };
 
-SdlApplication::SdlApplication() :
-_running(false)
+SdlApplication::SdlApplication()
+:	_running(false)
 {
 }
 
@@ -142,9 +141,8 @@ void SdlApplication::Render()
 }
 
 
-// ============================================================================
-// [Entry-Point]
-// ============================================================================
+///-----------------------------------------------------------------------------
+// Entry point
 
 int main(int argc, char* argv[])
 {
